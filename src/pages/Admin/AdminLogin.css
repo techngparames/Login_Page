@@ -1,0 +1,61 @@
+/* AdminLogin.css - Shark Blue Theme */
+
+.admin-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* deep shark blue gradient */
+  font-family: 'Arial', sans-serif;
+}
+
+.admin-login-box {
+  background-color: white;
+  padding: 50px 40px;
+  border-radius: 15px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  width: 400px;
+  text-align: center;
+  border: 1px solid #d0e7ff;
+}
+
+.admin-login-box h2 {
+  margin-bottom: 30px;
+  color: #0f77f1; /* a bright blue accent */
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.admin-login-box input {
+  width: 100%;
+  padding: 14px 15px;
+  margin: 12px 0;
+  border-radius: 8px;
+  border: 1px solid #3a5a78;
+  font-size: 16px;
+  outline: none;
+}
+
+.admin-login-box input:focus {
+  border-color: #0f77f1;
+  box-shadow: 0 0 8px rgba(15, 119, 241, 0.4);
+}
+
+.admin-login-box button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 15px;
+  background: linear-gradient(135deg, #0f77f1, #005fa3);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.admin-login-box button:hover {
+  background: linear-gradient(135deg, #005fa3, #0f77f1);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
